@@ -1,6 +1,6 @@
 import {Component, CSSProperties} from 'react';
 
-export interface InkProperties {
+interface InkProperties {
   /**
    * When true, pressing the ink will cause the background to fill with the current color
    * Default: true
@@ -38,4 +38,4 @@ export interface InkProperties {
 
 declare class Ink extends Component<InkProperties, any> {}
 
-export default Ink;
+export = Ink;
